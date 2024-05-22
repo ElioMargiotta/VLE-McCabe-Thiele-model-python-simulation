@@ -4,13 +4,13 @@ The model utilizes CSV files as input to plot the VLE. The parameters include Mu
 ## How to Use 
 Download to McCabe-Thiele.ipynb file. Open it in vscode. 
 First, add your path to the CSV file. 
-Next, change the separatof if necessary here : df = pd.read_csv(file_path,**sep=';'**)
+Next, change the separatof if necessary here : df = pd.read_csv(file_path,sep=';')
 
-Then Replace 'x_data_column_name' and 'y_data_column_name' with your actual column names here:
+Then Replace 'x_data' and 'y_data' with your actual column names here:
 
-x_data_column_name = '**x_data**' 
+x_data_column_name = 'x_data' 
 
-y_data_column_name = '**y_data**'  
+y_data_column_name = 'y_data'  
 
 Finally, run with python 3.12.0 kernel.
 
