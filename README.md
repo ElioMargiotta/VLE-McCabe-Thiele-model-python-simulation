@@ -9,6 +9,7 @@ Next, change the separatof if necessary here : df = pd.read_csv(file_path,**sep=
 Then Replace 'x_data_column_name' and 'y_data_column_name' with your actual column names here:
 
 x_data_column_name = '**x_data**' 
+
 y_data_column_name = '**y_data**'  
 
 Finally, run with python 3.12.0 kernel.
