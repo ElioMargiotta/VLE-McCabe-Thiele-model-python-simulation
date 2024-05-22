@@ -13,4 +13,3 @@ x_data_column_name = 'x_data'
 y_data_column_name = 'y_data'  
 
 Finally, run with python 3.12.0 kernel.
-
